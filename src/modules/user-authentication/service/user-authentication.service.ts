@@ -69,6 +69,6 @@ export class UserAuthenticationService {
       }
     }
 
-    return UserCreationDto.of(user._id, user?.FirstAccess);
+    return UserCreationDto.of(user._id, user?.firstAccess);
   }
 }

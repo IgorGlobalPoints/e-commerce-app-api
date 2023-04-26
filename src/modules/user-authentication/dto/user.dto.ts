@@ -9,37 +9,37 @@ export class User extends Document {
   _id: string;
 
   @Prop()
-  CreateDate: Date;
+  createDate: Date;
 
   @Prop()
-  UpdateDate: Date;
+  updateDate: Date;
 
   @Prop()
-  Active: boolean;
+  active: boolean;
 
   @Prop()
-  Name: string;
+  name: string;
 
   @Prop()
-  Email: string;
+  email: string;
 
   @Prop()
-  MobilePhone: string;
+  mobilePhone: string;
 
   @Prop()
-  Cpf: string;
+  cpf: string;
 
   @Prop()
-  Cnpj: string;
+  cnpj: string;
 
   @Prop()
-  Document: string;
+  document: string;
 
   @Prop()
-  Type: PersonType;
+  type: PersonType;
 
   @Prop()
-  FirstAccess: boolean;
+  firstAccess: boolean;
 }
 
 export const UserSchema = SchemaFactory.createForClass(User);
